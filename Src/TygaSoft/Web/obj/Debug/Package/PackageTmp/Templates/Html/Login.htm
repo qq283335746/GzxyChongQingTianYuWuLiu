@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<form id="dlgFm" method="post">
+<div id="dlgLogin">
+<div class="row">
+    <span class="fl rl">用户名：</span>
+    <div class="fl">
+        <input id="txtUserName" tabindex="1" maxlength="50" class="easyui-validatebox txt" data-options="required:true" />
+    </div>
+    <span class="clr"></span>
+</div>
+<div class="row">
+    <span class="fl rl">密码：</span>
+    <div class="fl">
+        <input type="password" id="txtPsw" tabindex="2" maxlength="30" class="easyui-validatebox txt" data-options="required:true,validType:'psw'" />
+    </div>
+    <span class="clr"></span>
+</div>
+<div class="row none">
+    <span class="fl rl">验证码：</span>
+    <div class="fl">
+        <input type="text" id="txtVc" tabindex="3" maxlength="4" style="width:50px;" class="easyui-validatebox txt" data-options="required:true,validType:'length[4,4]'" />
+        <img border="0" id="imgCode" src="/Handlers/ValidateCode.ashx?vcType=dlgLogin" alt="看不清，单击换一张" onclick="this.src='/Handlers/ValidateCode.ashx?vcType=dlgLogin&abc='+Math.random()" style="vertical-align:middle;" />
+    </div>
+    <span class="clr"></span>
+</div>
+</div>
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).bind("keydown", function (e) {
+            var e = window.event || e;
+            var key = e.keyCode || e.which;
+            if (key == 13) {
+                jsHelper.OnLogin('');
+            }
+        })
+    })
+</script>
+
+</body>
+</html>

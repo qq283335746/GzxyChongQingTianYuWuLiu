@@ -1,0 +1,4 @@
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\Model\bin\Debug\TygaSoft.Model.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\Model\bin\Debug\TygaSoft.Model.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\Model\obj\Debug\TygaSoft.Model.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\Model\obj\Debug\TygaSoft.Model.pdb

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rewriteRules>
+  <if url="^(.*)/(\?.+)?$">
+    <rewrite exists="$1/Default.aspx" to="$1/Default.aspx$2" />
+  </if>
+  <rewrite url="^/$" to="~/Default.aspx" processing="stop" />
+  <rewrite url="^/t\.html$" to="~/Login.aspx" processing="stop" />
+  <rewrite url="^/t\.html\?(.*)" to="~/Login.aspx?$1" processing="stop" />
+  <rewrite url="^/y\.html$" to="~/Register.aspx" processing="stop" />
+  <if url="^/s">
+    <rewrite url="/s(/?)$" to="~/Shares/Default.aspx" processing="stop" />
+    <rewrite url="/s/t(/?)$" to="~/Shares/Orders/SearchOrder.aspx" processing="stop" />
+    <rewrite url="/s/t\?(.*)" to="~/Shares/Orders/SearchOrder.aspx?$1" processing="stop" />
+    <rewrite url="/s/y(/?)$" to="~/Shares/AboutSite/ListContent.aspx" processing="stop" />
+    <rewrite url="/s/g\?(.*)" to="~/Shares/AboutSite/ShowContent.aspx?$1" processing="stop" />
+    
+    <rewrite url="^/s/r\.html\?(.*)" to="~/Shares/RegisterCheck.aspx?$1" processing="stop" />
+    <rewrite url="^/s/t\.html$" to="~/Shares/AboutSite/Default.aspx" processing="stop" />
+    <rewrite url="^/s/t\.html\?(.*)" to="~/Shares/AboutSite/Default.aspx?$1" processing="stop" />
+  </if>
+  <if url="^/u">
+    <rewrite url="^/u(/?)$" to="~/Users/Default.aspx" processing="stop" />
+    <rewrite url="/u/t(/?)$" to="~/Users/Orders/ListOrder.aspx" processing="stop" />
+    <rewrite url="/u/t\?(.*)" to="~/Users/Orders/ListOrder.aspx?$1" processing="stop" />
+    
+    <rewrite url="^/u/psw(/?)$" to="~/Users/UpdatePsw.aspx" processing="stop" />
+  </if>
+
+</rewriteRules>

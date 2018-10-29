@@ -1,0 +1,5 @@
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\MailUtility\bin\Debug\TygaSoft.MailUtility.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\MailUtility\bin\Debug\TygaSoft.MailUtility.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\MailUtility\obj\Debug\TygaSoft.MailUtility.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\MailUtility\obj\Debug\TygaSoft.MailUtility.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\MailUtility\obj\Debug\MailUtility.csprojResolveAssemblyReference.cache

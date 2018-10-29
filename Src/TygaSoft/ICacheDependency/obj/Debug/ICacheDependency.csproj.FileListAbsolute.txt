@@ -1,0 +1,4 @@
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\ICacheDependency\bin\Debug\TygaSoft.ICacheDependency.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\ICacheDependency\bin\Debug\TygaSoft.ICacheDependency.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\ICacheDependency\obj\Debug\TygaSoft.ICacheDependency.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\ICacheDependency\obj\Debug\TygaSoft.ICacheDependency.pdb

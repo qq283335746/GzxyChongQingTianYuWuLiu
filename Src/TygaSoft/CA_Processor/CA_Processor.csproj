@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{443A1809-AD87-43C2-BC4C-629959C36823}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TygaSoft.CA_Processor</RootNamespace>
+    <AssemblyName>TygaSoft.CA_Processor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{F67A4F66-E223-4C8A-AF55-66069F574D94}</Project>
+      <Name>BLL %28BLL\BLL%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL.MsSqlProvider\DAL.MsSqlProvider.csproj">
+      <Project>{D0CFE31A-F8E7-4D03-BBD7-0586C57E7AD3}</Project>
+      <Name>DAL.MsSqlProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL.XmlProvider\DAL.XmlProvider.csproj">
+      <Project>{78A9B48F-A929-42B7-9C32-52F614233D7C}</Project>
+      <Name>DAL.XmlProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DALFactory\DALFactory.csproj">
+      <Project>{D13AF668-0883-41AD-A727-4D05986C5072}</Project>
+      <Name>DALFactory %28DALFactory\DALFactory%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{2370789E-6B67-47AB-86C7-15B95055F269}</Project>
+      <Name>DBUtility %28DBUtility\DBUtility%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MailUtility\MailUtility.csproj">
+      <Project>{90EFB6D5-1941-4FBC-8078-0E48A847DF1B}</Project>
+      <Name>MailUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IBLLStrategy\IBLLStrategy.csproj">
+      <Project>{28B9F59F-DC90-455E-BB70-18619768BE6E}</Project>
+      <Name>IBLLStrategy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{9ACA238B-F7AB-473C-B296-6851D018747A}</Project>
+      <Name>IDAL %28IDAL\IDAL%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IMessaging\IMessaging.csproj">
+      <Project>{516CBA7E-B7F6-4009-8283-9137DB6EFD92}</Project>
+      <Name>IMessaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessagingFactory\MessagingFactory.csproj">
+      <Project>{17D75892-2DA2-4D81-B74F-3E5C5D2C9A95}</Project>
+      <Name>MessagingFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{BD840EB2-A60D-4985-BEC4-491574A32BA6}</Project>
+      <Name>Model %28Model\Model%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MsmqMessaging\MsmqMessaging.csproj">
+      <Project>{8C8BCF26-6CB9-4A9F-916A-4AFD2E311073}</Project>
+      <Name>MsmqMessaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ThreadProcessor\ThreadProcessor.csproj">
+      <Project>{B3B72DBE-4647-4294-9C23-1A4B3C4DB2F1}</Project>
+      <Name>ThreadProcessor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

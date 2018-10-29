@@ -1,0 +1,7 @@
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.CacheDependencyFactory.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.CacheDependencyFactory.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.ICacheDependency.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\bin\Debug\TygaSoft.ICacheDependency.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\obj\Debug\TygaSoft.CacheDependencyFactory.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\obj\Debug\TygaSoft.CacheDependencyFactory.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\CacheDependencyFactory\obj\Debug\CacheDependencyFactory.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\bin\Debug\TygaSoft.IBLLStrategy.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\bin\Debug\TygaSoft.IBLLStrategy.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\bin\Debug\TygaSoft.Model.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\bin\Debug\TygaSoft.Model.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\obj\Debug\IBLLStrategy.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\obj\Debug\TygaSoft.IBLLStrategy.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\IBLLStrategy\obj\Debug\TygaSoft.IBLLStrategy.pdb

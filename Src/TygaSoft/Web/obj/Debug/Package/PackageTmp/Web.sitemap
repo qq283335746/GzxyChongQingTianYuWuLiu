@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="/" title="首页"  description="" roles="*">
+
+      <siteMapNode url="/s/t" title="在途查询" description="" roles="*"></siteMapNode>
+      <siteMapNode url="/s/y" title="公告" description="" roles="*"></siteMapNode>
+
+      <siteMapNode url="/u" title="用户中心" description="" roles="Users">
+        <siteMapNode url="/u/t" title="订单列表" description="" roles="Users"></siteMapNode>
+        <siteMapNode url="/u/psw" title="修改密码" description="" roles="Users"></siteMapNode>
+      </siteMapNode>
+      
+      <siteMapNode url="~/Admin/Default.aspx" title="后台管理" description="" roles="Administrators">
+
+        <siteMapNode url="" title="短信管理" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/Sms/ListSmsSend.aspx" title="短信列表" description="" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Sms/ListSmsTemplate.aspx" title="短信模板" description="" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Sms/AddSmsTemplate.aspx" title="新建/编辑模板" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Sms/AddSmsSend.aspx" title="新建短信" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Sms/ImportSmsSend.aspx" title="导入发送短信" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Sms/ShowTemplate.aspx" title="短信预览" description="hide" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+        
+        <siteMapNode url="" title="内容管理" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/AboutSite/ListContentType.aspx" title="内容类型列表" description="" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/AboutSite/ListContent.aspx" title="内容列表" description="" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/AboutSite/AddContent.aspx" title="新建/编辑内容" description="" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="用户角色管理" description="" roles="Administrators">
+          <siteMapNode url="~/Admin/Members/ListUsers.aspx" title="用户列表" description="" roles="Administrators">
+            <siteMapNode url="~/Admin/Members/AddUserRole.aspx" title="用户角色关系分配" description="hide" roles="Administrators"></siteMapNode>
+          </siteMapNode>
+          <siteMapNode url="~/Admin/Members/AddUser.aspx" title="新建/修改用户" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Members/ListRoles.aspx" title="角色列表" description="" roles="Administrators">
+            <siteMapNode url="~/Admin/Members/AddRoleUser.aspx" title="角色用户关系分配" description="hide" roles="Administrators"></siteMapNode>
+          </siteMapNode>
+          <siteMapNode url="~/Admin/Members/AddRole.aspx" title="新建/修改角色" description="hide" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Members/UpdatePsw.aspx" title="修改密码" description="" roles="Administrators"></siteMapNode>
+        </siteMapNode>
+
+        <siteMapNode url="" title="系统管理" description="" roles="Administrators">
+			    <siteMapNode url="~/Admin/Sys/ListSysEnum.aspx" title="枚举项管理" description="" roles="Administrators"></siteMapNode>
+          <siteMapNode url="~/Admin/Sys/ListTyUser.aspx" title="同步用户登录管理" description="" roles="Administrators"></siteMapNode>
+          
+        </siteMapNode>
+      </siteMapNode>
+        
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Shares.master.cs" Inherits="TygaSoft.Web.Shares.Shares" %>
+
+<%@ Register src="../WebUserControls/SharesLeft.ascx" tagname="SharesLeft" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>技術支持：天涯孤岸 国内个人网站首选 qq283335746 </title>
+    <link href="/Styles/Main.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/plugins/jeasyui/themes/gray/easyui.css" rel="stylesheet" type="text/css" />
+    <link href="/Scripts/plugins/jeasyui/themes/icon.css" rel="stylesheet" type="text/css" />
+    <link href="/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="/Scripts/plugins/jeasyui/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="/Scripts/plugins/jeasyui/locale/easyui-lang-zh_CN.js" type="text/javascript"></script>
+    <script src="/Scripts/JeasyuiExtend.js" type="text/javascript"></script>
+    <script src="/Scripts/JeasyuiHelper.js" type="text/javascript"></script>
+    <script src="/Scripts/Menus.js" type="text/javascript"></script>
+    <script src="/Scripts/JsHelper.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body id="body" class="easyui-layout" data-options="fit:true">
+    <form id="form1" runat="server">
+
+    <!--header begin-->
+    <!--header end-->
+    <!--pagemain begin-->
+    <div id="pageLeft" data-options="region:'west',border:false" title="" style="width:96px;">
+        <uc1:SharesLeft ID="SharesLeft1" runat="server" />
+    </div>
+    <div id="pageMain" data-options="region:'center',title:'',border:false" style="background:#f5f5f5;">
+        <div class="header">
+            <div class="header-wrap">
+                <h2><img src="/Images/logo.jpg" alt="重庆天宇物流" /> </h2>
+                <span class="h2-spec"></span>
+                <div class="header-user-op">
+                    <asp:LoginView ID="lvUser" runat="server">
+                        <AnonymousTemplate> 
+                          <a href="/t.html" class="alkc">[登录]</a>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                        <asp:LoginName ID="lnUser" runat="server" FormatString="您好，{0}" />
+                        <asp:LoginStatus ID="lsUser" runat="server" CssClass="header-logout" LogoutText="[退出]" />
+                        </LoggedInTemplate>
+                    </asp:LoginView>   
+                </div>
+            </div>
+        </div>
+        <div class="main-wrap">
+            <div class="map"><asp:SiteMapPath ID="SitePaths" runat="server" ClientIDMode="Static" /></div>
+            <span class="clr"></span>
+            <asp:ContentPlaceHolder ID="cphMain" runat="server" ></asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <!--pagemain end-->
+    <!--pagemain begin-->
+    </form>
+
+    <div id="dlgWaiting" class="easyui-dialog" data-options="closed:true,modal:true,collapsible:false" title="" style="width:220px;height:60px; padding:10px;">
+	    <div class="waiting">正在执行，请稍后......</div>
+    </div>
+    <div id="dlgLogin" class="easyui-dialog" title="登录" data-options="closed:true,modal:true,
+    href:'/Templates/Html/Login.htm',buttons: [{
+	        text:'登录',iconCls:'icon-ok',
+	        handler:function(){
+		        jsHelper.OnLogin('');
+	        }
+        },{
+	        text:'取消',iconCls:'icon-cancel',
+	        handler:function(){
+		        $('#dlgLogin').dialog('close');
+	        }
+        }]" style="width:400px;height:250px;padding:10px">
+        
+        <span id="dlgHidden">dddd</span>
+
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+            MenusFun.Init();
+            //UserMenus.Init();
+        })
+    </script>
+</body>
+</html>

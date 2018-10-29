@@ -1,0 +1,7 @@
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.TableCacheDependency.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.TableCacheDependency.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.ICacheDependency.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\bin\Debug\TygaSoft.ICacheDependency.pdb
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\obj\Debug\TableCacheDependency.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\obj\Debug\TygaSoft.TableCacheDependency.dll
+E:\Visual Studio 2010 Workspace\物流类系统\胡侃刚项目\重庆天宇物流\TygaSoft\TableCacheDependency\obj\Debug\TygaSoft.TableCacheDependency.pdb
